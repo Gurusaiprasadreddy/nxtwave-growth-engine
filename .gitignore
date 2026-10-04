@@ -1,0 +1,39 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/routes/__pycache__/
+backend/.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Database (generated)
+*.db
+*.sqlite3
+
+# Environment
+.env
+.env.local
+
+# Node / Frontend
+frontend/node_modules/
+frontend/.vite/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Pytest
+.pytest_cache/
